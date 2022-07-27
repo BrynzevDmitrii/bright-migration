@@ -1185,7 +1185,7 @@ table {
   .discounts__text_title {
     width: 256px;
     height: 52px;
-    font-size: 24
+    font-size: 24;
     line-height: 30px;
   }
 }
