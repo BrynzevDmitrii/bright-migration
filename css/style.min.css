@@ -90,7 +90,7 @@ table {
 
 .header {
   position: relative;
-  background-image: url("../../img/header/header-baner.png");
+  background-image: url("../img/header/header-baner.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -98,13 +98,13 @@ table {
 }
 @media (max-width: 360px) {
   .header {
-    background-image: url("../../img/header/header-baner320.png");
+    background-image: url("../img/header/header-baner320.png");
     background-position-x: right;
   }
 }
 .header__tagline {
   position: relative;
-  background-image: url("../../img/header/white-elips-header.png");
+  background-image: url("../img/header/white-elips-header.png");
   background-repeat: no-repeat;
   background-position: 263px 125px;
   max-width: 664px;
@@ -117,7 +117,7 @@ table {
 }
 @media (max-width: 360px) {
   .header__tagline {
-    background-image: url("../../img/header/white-elips-header320.png");
+    background-image: url("../img/header/white-elips-header320.png");
     max-width: 336px;
     min-height: 336px;
     background-position: -5px 157px;
@@ -126,7 +126,7 @@ table {
   }
 }
 .header__tagline_logo {
-  background-image: url("../../img/header/logo.png");
+  background-image: url("../img/header/logo.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 242px;
@@ -136,7 +136,7 @@ table {
 }
 @media (max-width: 360px) {
   .header__tagline_logo {
-    background-image: url("../../img/header/logo320.png");
+    background-image: url("../img/header/logo320.png");
     width: 109px;
     height: 34px;
     left: 26px;
@@ -201,7 +201,7 @@ table {
 }
 .header__green-elips {
   position: absolute;
-  background-image: url("../../img/header/green-elips-header.png");
+  background-image: url("../img/header/green-elips-header.png");
   background-repeat: no-repeat;
   width: 268px;
   height: 268px;
@@ -210,7 +210,7 @@ table {
 }
 @media (max-width: 360px) {
   .header__green-elips {
-    background-image: url("../../img/header/green-elips-header320.png");
+    background-image: url("../img/header/green-elips-header320.png");
     top: 424px;
     left: 203px;
     width: 156px;
@@ -219,7 +219,7 @@ table {
 }
 .header__blue-elips {
   position: absolute;
-  background-image: url("../../img/header/blue-elips-header.png");
+  background-image: url("../img/header/blue-elips-header.png");
   background-repeat: no-repeat;
   width: 105px;
   height: 105px;
@@ -228,7 +228,7 @@ table {
 }
 @media (max-width: 360px) {
   .header__blue-elips {
-    background-image: url("../../img/header/blue-elips-header320.png");
+    background-image: url("../img/header/blue-elips-header320.png");
     top: 71px;
     left: 136px;
     width: 82px;
@@ -443,42 +443,42 @@ table {
 }
 
 #improvement__item_1 {
-  background-image: url("../../img/main/improvement/yard.png");
+  background-image: url("../img/main/improvement/yard.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (max-width: 360px) {
   #improvement__item_1 {
-    background-image: url("../../img/main/improvement/yard320.png");
+    background-image: url("../img/main/improvement/yard320.png");
   }
 }
 
 #improvement__item_2 {
-  background-image: url("../../img/main/improvement/landscaping.png");
+  background-image: url("../img/main/improvement/landscaping.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #improvement__item_3 {
-  background-image: url("../../img/main/improvement/playgrounds.png");
+  background-image: url("../img/main/improvement/playgrounds.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #improvement__item_4 {
-  background-image: url("../../img/main/improvement/rest-zone.png");
+  background-image: url("../img/main/improvement/rest-zone.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #improvement__item_5 {
-  background-image: url("../../img/main/improvement/entrance.png");
+  background-image: url("../img/main/improvement/entrance.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #improvement__item_6 {
-  background-image: url("../../img/main/improvement/sport.png");
+  background-image: url("../img/main/improvement/sport.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -562,13 +562,13 @@ table {
   }
 }
 .apartments__slider_drawing-img {
-  background-image: url("../../img/main/apartments/drawing.png");
+  background-image: url("../img/main/apartments/drawing.png");
   width: 375px;
   height: 284px;
 }
 @media (max-width: 360px) {
   .apartments__slider_drawing-img {
-    background-image: url("../../img/main/apartments/drawing320.png");
+    background-image: url("../img/main/apartments/drawing320.png");
     width: 247px;
     height: 188px;
     margin: 24px 24px 32px 25px;
@@ -698,7 +698,7 @@ table {
 .apartments__slider_paginations {
   min-width: 102px;
   min-height: 12px;
-  background-image: url("../../img/main/apartments/pagination4.png");
+  background-image: url("../img/main/apartments/pagination4.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -746,7 +746,7 @@ table {
 }
 
 #apartments__slider_img1 {
-  background-image: url("../../img/main/apartments/appartament-green-armchair.png");
+  background-image: url("../img/main/apartments/appartament-green-armchair.png");
 }
 @media (max-width: 360px) {
   #apartments__slider_img1 {
@@ -755,7 +755,7 @@ table {
 }
 
 #apartments__slider_img2 {
-  background-image: url("../../img/main/apartments/apartments-kitchen.png");
+  background-image: url("../img/main/apartments/apartments-kitchen.png");
   background-size: cover;
 }
 @media (max-width: 360px) {
@@ -852,14 +852,14 @@ table {
   }
 }
 .convenience__banner_img {
-  background-image: url("../../img/main/convenience/convenience-baner.png");
+  background-image: url("../img/main/convenience/convenience-baner.png");
   background-repeat: no-repeat;
   height: 350px;
   background-size: cover;
 }
 @media (max-width: 360px) {
   .convenience__banner_img {
-    background-image: url("../../img/main/convenience/convenience-baner320.png");
+    background-image: url("../img/main/convenience/convenience-baner320.png");
     background-size: cover;
     height: 100%;
     background-position-y: -6px;
@@ -931,18 +931,18 @@ table {
 }
 
 #convenience__item_2 {
-  background-image: url("../../img/main/convenience/ceilings.png");
+  background-image: url("../img/main/convenience/ceilings.png");
   background-repeat: no-repeat;
 }
 @media (max-width: 360px) {
   #convenience__item_2 {
-    background-image: url("../../img/main/convenience/ceilings320.png");
+    background-image: url("../img/main/convenience/ceilings320.png");
     max-width: 316px;
   }
 }
 
 #convenience__item_3 {
-  background-image: url("../../img/main/convenience/windows.png");
+  background-image: url("../img/main/convenience/windows.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1094,53 +1094,53 @@ table {
 }
 
 #microcity__infrastructure_1 {
-  background-image: url("../../img/main/microcity/microcity.png");
+  background-image: url("../img/main/microcity/microcity.png");
 }
 @media (max-width: 360px) {
   #microcity__infrastructure_1 {
-    background-image: url("../../img/main/microcity/microcity320.png");
+    background-image: url("../img/main/microcity/microcity320.png");
     background-repeat: no-repeat;
     background-size: 360px 658px;
   }
 }
 
 #microcity__infrastructure_2 {
-  background-image: url("../../img/main/microcity/flat.png");
+  background-image: url("../img/main/microcity/flat.png");
 }
 
 #microcity__infrastructure_3 {
-  background-image: url("../../img/main/microcity/park.png");
+  background-image: url("../img/main/microcity/park.png");
 }
 
 #microcity__appearance_1 {
-  background-image: url("../../img/main/microcity/glass.png");
+  background-image: url("../img/main/microcity/glass.png");
 }
 
 #microcity__appearance_2 {
-  background-image: url("../../img/main/microcity/granite.png");
+  background-image: url("../img/main/microcity/granite.png");
 }
 
 #microcity__appearance_3 {
-  background-image: url("../../img/main/microcity/pantry.png");
+  background-image: url("../img/main/microcity/pantry.png");
 }
 
 #microcity__conditions_1 {
-  background-image: url("../../img/main/microcity/hot-whoter.png");
+  background-image: url("../img/main/microcity/hot-whoter.png");
 }
 
 #microcity__conditions_2 {
-  background-image: url("../../img/main/microcity/pram.png");
+  background-image: url("../img/main/microcity/pram.png");
 }
 
 #microcity__conditions_3 {
-  background-image: url("../../img/main/microcity/waiting-area.png");
+  background-image: url("../img/main/microcity/waiting-area.png");
 }
 
 .discounts {
   margin-top: 100px;
   position: relative;
   min-width: 100%;
-  background-image: url("../../img/main/discounts/discounts-bg.png");
+  background-image: url("../img/main/discounts/discounts-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 473px;
@@ -1149,7 +1149,7 @@ table {
   .discounts {
     height: 639px;
     margin-top: 30px;
-    background-image: url("../../img/main/discounts/discounts-bg320.png");
+    background-image: url("../img/main/discounts/discounts-bg320.png");
   }
 }
 .discounts__text {
@@ -1185,7 +1185,7 @@ table {
   .discounts__text_title {
     width: 256px;
     height: 52px;
-    font-size: 24px;
+    font-size: 24
     line-height: 30px;
   }
 }
@@ -1428,14 +1428,14 @@ table {
   }
 }
 .move__img {
-  background-image: url("../../img/main/move/move.jpg");
+  background-image: url("../img/main/move/move.jpg");
   width: 627px;
   height: 449px;
   background-repeat: no-repeat;
 }
 @media (max-width: 360px) {
   .move__img {
-    background-image: url("../../img/main/move/move320.png");
+    background-image: url("../img/main/move/move320.png");
     width: 110%;
     height: 251px;
     position: absolute;
@@ -1456,14 +1456,14 @@ table {
   position: relative;
   margin-top: 100px;
   height: 388px;
-  background-image: url("../../img/main/form/formbg.jpg");
+  background-image: url("../img/main/form/formbg.jpg");
   background-size: cover;
 }
 @media (max-width: 360px) {
   .form {
     margin-top: 528px;
     height: 640px;
-    background-image: url("../../img/main/form/formbg320.png");
+    background-image: url("../img/main/form/formbg320.png");
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -1651,14 +1651,14 @@ table {
   }
 }
 .footer__content_logo {
-  background-image: url("../../img/footer/logo.png");
+  background-image: url("../img/footer/logo.png");
   background-repeat: no-repeat;
   background-position-y: 65px;
   width: 221px;
 }
 @media (max-width: 360px) {
   .footer__content_logo {
-    background-image: url("../../img/footer/logo320.png");
+    background-image: url("../img/footer/logo320.png");
     background-position: 0px 33px;
     width: 127px;
     height: 100px;
@@ -1709,7 +1709,7 @@ table {
 }
 .footer__content_social-inst {
   position: absolute;
-  background-image: url(../../img/footer/centr.svg);
+  background-image: url("../img/footer/centr.svg");
   background-repeat: no-repeat;
   background-size: 9px 9px;
   background-position: center;
@@ -1811,7 +1811,7 @@ table {
   }
 }
 .footer__content_slogan {
-  background-image: url("../../img/footer/slogan.png");
+  background-image: url("../img/footer/slogan.png");
   background-repeat: no-repeat;
   width: 268px;
   background-position-y: 63px;
@@ -1819,7 +1819,7 @@ table {
 @media (max-width: 360px) {
   .footer__content_slogan {
     position: absolute;
-    background-image: url(../../img/footer/slogan320.png);
+    background-image: url("../img/footer/slogan320.png");
     width: 147px;
     top: 189px;
     left: 96px;
