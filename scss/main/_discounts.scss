@@ -2,7 +2,7 @@
     margin-top: 100px;
     position: relative;
     min-width: 100%;
-    background-image: url("../../img/main/discounts/discounts-bg.png");
+    background-image: url("../img/main/discounts/discounts-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 473px;
@@ -10,7 +10,7 @@
     @include bp-320 {
         height: 639px;
         margin-top: 30px;
-        background-image: url("../../img/main/discounts/discounts-bg320.png");
+        background-image: url("../img/main/discounts/discounts-bg320.png");
 
     }
 

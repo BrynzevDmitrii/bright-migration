@@ -76,12 +76,12 @@
         }
 
         &_drawing-img {
-            background-image: url("../../img/main/apartments/drawing.png");
+            background-image: url("../img/main/apartments/drawing.png");
             width: 375px;
             height: 284px;
 
             @include bp-320 {
-                background-image: url("../../img/main/apartments/drawing320.png");
+                background-image: url("../img/main/apartments/drawing320.png");
                 width: 247px;
                 height: 188px;
                 margin: 24px 24px 32px 25px;
@@ -198,7 +198,7 @@
         &_paginations {
             min-width: 102px;
             min-height: 12px;
-            background-image: url("../../img/main/apartments/pagination4.png");
+            background-image: url("../img/main/apartments/pagination4.png");
             background-repeat: no-repeat;
             background-position: center;
             @include bp-320 {
@@ -241,7 +241,7 @@
 }
 
 #apartments__slider_img1 {
-    background-image: url("../../img/main/apartments/appartament-green-armchair.png");
+    background-image: url("../img/main/apartments/appartament-green-armchair.png");
 
     @include bp-320 {
         display: none;
@@ -249,7 +249,7 @@
 }
 
 #apartments__slider_img2 {
-    background-image: url("../../img/main/apartments/apartments-kitchen.png");
+    background-image: url("../img/main/apartments/apartments-kitchen.png");
     background-size: cover;
 
     @include bp-320 {

@@ -74,13 +74,13 @@
         }
 
         &_img {
-            background-image: url("../../img/main/convenience/convenience-baner.png");
+            background-image: url("../img/main/convenience/convenience-baner.png");
             background-repeat: no-repeat;
             height: 350px;
             background-size: cover;
             
             @include bp-320 {
-                background-image: url("../../img/main/convenience/convenience-baner320.png");
+                background-image: url("../img/main/convenience/convenience-baner320.png");
                 background-size: cover;
                 height: 100%;
                 background-position-y: -6px;
@@ -137,7 +137,7 @@
 }
 
 #convenience__item_1 {
-    background-image: url("../../img/main/convenience/plane.png");
+    background-image: url("../img/main/convenience/plane.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -147,17 +147,17 @@
 }
 
 #convenience__item_2 {
-    background-image: url("../../img/main/convenience/ceilings.png");
+    background-image: url("../img/main/convenience/ceilings.png");
     background-repeat: no-repeat;
 
     @include bp-320 {
-        background-image: url("../../img/main/convenience/ceilings320.png");
+        background-image: url("../img/main/convenience/ceilings320.png");
         max-width: 316px;
     }
 }
 
 #convenience__item_3 {
-    background-image: url("../../img/main/convenience/windows.png");
+    background-image: url("../img/main/convenience/windows.png");
     background-repeat: no-repeat;
     background-size: cover;
 

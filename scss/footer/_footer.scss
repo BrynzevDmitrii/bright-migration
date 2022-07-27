@@ -21,13 +21,13 @@
 
 
         &_logo {
-            background-image: url("../../img/footer/logo.png");
+            background-image: url("../img/footer/logo.png");
             background-repeat: no-repeat;
             background-position-y: 65px;
             width: 221px;
 
             @include bp-320 {
-                background-image: url('../../img/footer/logo320.png');
+                background-image: url('../img/footer/logo320.png');
                 background-position: 0px 33px;
                 width: 127px;
                 height: 100px;
@@ -81,7 +81,7 @@
 
         &_social-inst {
             position: absolute;
-            background-image: url(../../img/footer/centr.svg);
+            background-image: url('../img/footer/centr.svg');
             background-repeat: no-repeat;
             background-size: 9px 9px;
             background-position: center;
@@ -166,14 +166,14 @@
         }
 
         &_slogan {
-            background-image: url("../../img/footer/slogan.png");
+            background-image: url("../img/footer/slogan.png");
             background-repeat: no-repeat;
             width: 268px;
             background-position-y: 63px;
 
             @include bp-320 {
                 position: absolute;
-                background-image: url(../../img/footer/slogan320.png);
+                background-image: url('../img/footer/slogan320.png');
                 width: 147px;
                 top: 189px;
                 left: 96px;

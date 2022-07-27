@@ -2,14 +2,14 @@
     position: relative;
     margin-top: 100px;
     height: 388px;
-    background-image: url("../../img/main/form/formbg.jpg");
+    background-image: url("../img/main/form/formbg.jpg");
     background-size: cover;
     
 
     @include bp-320 {
         margin-top:528px;
         height: 640px;
-        background-image: url("../../img/main/form/formbg320.png");
+        background-image: url("../img/main/form/formbg320.png");
         display: flex;
         align-items: flex-end;
         justify-content: center;

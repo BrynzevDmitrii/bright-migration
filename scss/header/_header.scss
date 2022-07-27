@@ -1,23 +1,20 @@
-@use "../mixins"as *;
-@use "../typografics"as *;
-
 .header {
     position: relative;
-    background-image: url('../../img/header/header-baner.png');
+    background-image: url('../img/header/header-baner.png');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
     overflow: hidden;
 
     @include bp-320 {
-        background-image: url('../../img/header/header-baner320.png');
+        background-image: url('../img/header/header-baner320.png');
         background-position-x: right;
     }
 
 
     &__tagline {
         position: relative;
-        background-image: url('../../img/header/white-elips-header.png');
+        background-image: url('../img/header/white-elips-header.png');
         background-repeat: no-repeat;
         background-position: 263px 125px;
         max-width: 664px;
@@ -29,7 +26,7 @@
         align-items: center;
 
         @include bp-320 {
-            background-image: url('../../img/header/white-elips-header320.png');
+            background-image: url('../img/header/white-elips-header320.png');
             max-width: 336px;
             min-height: 336px;
             background-position: -5px 157px;
@@ -38,7 +35,7 @@
         }
 
         &_logo {
-            background-image: url('../../img/header/logo.png');
+            background-image: url('../img/header/logo.png');
             background-repeat: no-repeat;
             position: absolute;
             width: 242px;
@@ -47,7 +44,7 @@
             top: 230px;
 
             @include bp-320 {
-                background-image: url('../../img/header/logo320.png');
+                background-image: url('../img/header/logo320.png');
                 width: 109px;
                 height: 34px;
                 left: 26px;
@@ -106,7 +103,7 @@
 
     &__green-elips {
         position: absolute;
-        background-image: url('../../img/header/green-elips-header.png');
+        background-image: url('../img/header/green-elips-header.png');
         background-repeat: no-repeat;
         width: 268px;
         height: 268px;
@@ -114,7 +111,7 @@
         left: 769px;
 
         @include bp-320 {
-            background-image: url('../../img/header/green-elips-header320.png');
+            background-image: url('../img/header/green-elips-header320.png');
             top: 424px;
             left: 203px;
             width: 156px;
