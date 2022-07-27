@@ -1,0 +1,167 @@
+.convenience {
+    margin-top: 100px;
+    overflow: hidden;
+
+    @include bp-320 {
+        margin-top: 47px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 280px;
+        gap: 30px;
+        margin-bottom: 20px;
+
+        @include bp-320 {
+            grid-template-columns: 316px;
+            grid-template-rows: 618px;
+            gap: 35px;
+            margin-bottom: 70px;
+        }
+    }
+
+    &__item {
+        position: relative;
+        width: 350px;
+        height: 280px;
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-end;
+        cursor: pointer;
+
+        @include bp-320 {
+            width: 316px;
+            height: 618px;
+            border-radius: 20px;
+        }
+
+        &_title {
+            display: flex;
+            align-items: flex-end;
+            width: 350px;
+            height: 100%;
+            padding: 0 128px 32px 28px;
+            @include Geometria500;
+            color: $white;
+            background: linear-gradient(180deg, rgba(100, 104, 101, 0) 16.67%, #646865 100%);
+            border-radius: 0px 0px 10px 10px;
+            background-size: 350px 128px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-blend-mode: multiply;
+
+            @include bp-320 {
+                @include Geometria800;
+                font-size: 24px;
+                line-height: 23px;
+                 background-position: 5px;
+                padding:0 64px 29px 125px;
+                height: 318px;
+                background-size: cover;
+                border-radius: 20px;
+                text-transform: none;
+            }
+        }
+    }
+
+    &__banner {
+        position: relative;
+        @include bp-320 {
+            width: 342px;
+            height: 620px;
+            filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.12));
+        }
+
+        &_img {
+            background-image: url("../../img/main/convenience/convenience-baner.png");
+            background-repeat: no-repeat;
+            height: 350px;
+            background-size: cover;
+            
+            @include bp-320 {
+                background-image: url("../../img/main/convenience/convenience-baner320.png");
+                background-size: cover;
+                height: 100%;
+                background-position-y: -6px;
+                width: 316px;
+            }
+        }
+
+        &_info {
+            position: absolute;
+            z-index: 1;
+            top: 99px;
+            left: 767px;
+
+            @include bp-320 {
+                top: 58px;
+                left: 23px;
+            }
+
+        }
+
+        &_text {
+            @include Geometria800;
+            font-size: 36px;
+            line-height: 45px;
+            text-transform: uppercase;
+            color: #646865;
+            margin-bottom: 30px;
+            width: 245px;
+
+            @include bp-320 {
+                margin-bottom: 329px;
+            }
+
+        }
+
+        &_btn {
+            max-width: 266px;
+            max-height: 51px;
+            background: linear-gradient(34.66deg, #82B428 16.88%, #C5D210 76%);
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 50px;
+            @include Geometria500;
+            font-size: 20px;
+            line-height: 30px;
+            color: $white;
+
+            @include bp-320 {
+                width: 275px;
+                height: 51px;
+            }
+        }
+    }
+
+}
+
+#convenience__item_1 {
+    background-image: url("../../img/main/convenience/plane.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include bp-320 {
+        display: none;
+    }
+}
+
+#convenience__item_2 {
+    background-image: url("../../img/main/convenience/ceilings.png");
+    background-repeat: no-repeat;
+
+    @include bp-320 {
+        background-image: url("../../img/main/convenience/ceilings320.png");
+        max-width: 316px;
+    }
+}
+
+#convenience__item_3 {
+    background-image: url("../../img/main/convenience/windows.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include bp-320 {
+        display: none;
+    }
+}

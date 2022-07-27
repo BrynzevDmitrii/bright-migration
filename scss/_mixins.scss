@@ -1,0 +1,17 @@
+@use  "./typografics" as *;
+
+@mixin blueBoldText {
+    @include Geometria800;
+    color: $blue;
+}
+
+@mixin greenBoldText {
+    @include Geometria800;
+    color: $green-text;
+}
+
+@mixin bp-320 {
+    @media (max-width: 360px) {
+      @content;
+    }
+  }

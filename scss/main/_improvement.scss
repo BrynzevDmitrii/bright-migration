@@ -1,0 +1,155 @@
+.improvement {
+    margin-top: 104px;
+    overflow: hidden;
+
+    @include bp-320 {
+        margin-top: 47px;
+    }
+
+    &__title {
+        @include Geometria800;
+        color: $blue;
+        max-width: 475px;
+
+        @include bp-320 {
+            color: $green-text;
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 280px);
+        gap: 30px;
+        margin-top: 50px;
+
+        @include bp-320 {
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: 1fr;
+            gap: 35px;
+            margin-top: 39px;
+        }
+    }
+
+    &__item {
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        align-items: flex-end;
+        width: 350px;
+        height: 100%;
+        @include Geometria500;
+        color: $white;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+        background-position: bottom;
+        background-blend-mode: multiply;
+        border-radius: 0px 0px 10px 10px;
+
+        @include bp-320 {
+            font-size: 18px;
+            line-height: 18px;
+            width: 56%;
+            padding: 0 106px 20px 20px;
+        }
+
+        @include bp-320 {
+            width: 290px;
+            height: 468px;
+        }
+
+        &_title {
+            display: flex;
+            align-items: flex-end;
+            width: 350px;
+            height: 148px;
+
+            padding: 0 0 32px 28px;
+            @include Geometria500;
+            color: $white;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+            background-size: 350px 128px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-blend-mode: multiply;
+            border-radius: 10px;
+
+            @include bp-320 {
+                font-size: 18px;
+                line-height: 18px;
+                width: 56%;
+                padding: 0 106px 20px 20px;
+            }
+        }
+
+        &_opasiti-block {
+            position: absolute;
+            @include Geometria500;
+            font-size: 15px;
+            line-height: 15px;
+            color: $white;
+            max-width: 295px;
+            top: 135px;
+            left: 28px;
+            transform: scale(0);
+        }
+
+    }
+
+    &__item:hover>&__item_opasiti-block {
+        transform: scale(1);
+        transition: .8 ease-in-out;
+        z-index: 1;
+    }
+
+    &__item:hover>&__item_title {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+        background-blend-mode: multiply;
+        border-radius: 10px;
+        height: 77%;
+        padding: 40px 0 26px 28px;
+        align-items: flex-start;
+        cursor: pointer;
+    }
+}
+
+#improvement__item_1 {
+    background-image: url("../../img/main/improvement/yard.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include bp-320 {
+        background-image: url("../../img/main/improvement/yard320.png");
+    }
+}
+
+#improvement__item_2 {
+    background-image: url("../../img/main/improvement/landscaping.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#improvement__item_3 {
+    background-image: url("../../img/main/improvement/playgrounds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#improvement__item_4 {
+    background-image: url("../../img/main/improvement/rest-zone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#improvement__item_5 {
+    background-image: url("../../img/main/improvement/entrance.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#improvement__item_6 {
+    background-image: url("../../img/main/improvement/sport.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

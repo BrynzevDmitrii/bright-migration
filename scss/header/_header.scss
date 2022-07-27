@@ -1,0 +1,144 @@
+@use "../mixins"as *;
+@use "../typografics"as *;
+
+.header {
+    position: relative;
+    background-image: url('../../img/header/header-baner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    overflow: hidden;
+
+    @include bp-320 {
+        background-image: url('../../img/header/header-baner320.png');
+        background-position-x: right;
+    }
+
+
+    &__tagline {
+        position: relative;
+        background-image: url('../../img/header/white-elips-header.png');
+        background-repeat: no-repeat;
+        background-position: 263px 125px;
+        max-width: 664px;
+        min-height: 664px;
+        padding: 125px 0 172px 263px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @include bp-320 {
+            background-image: url('../../img/header/white-elips-header320.png');
+            max-width: 336px;
+            min-height: 336px;
+            background-position: -5px 157px;
+            padding: 165px 0;
+            display: block;
+        }
+
+        &_logo {
+            background-image: url('../../img/header/logo.png');
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 242px;
+            height: 72px;
+            left: 408px;
+            top: 230px;
+
+            @include bp-320 {
+                background-image: url('../../img/header/logo320.png');
+                width: 109px;
+                height: 34px;
+                left: 26px;
+                top: 209px;
+            }
+        }
+
+        &_call {
+            max-width: 403px;
+            @include greenBoldText;
+            font-size: 48px;
+            line-height: 60px;
+            padding: 130px 0 17px 25px;
+
+            @include bp-320 {
+                font-size: 24px;
+                line-height: 30px;
+                max-width: 191px;
+                padding: 100px 0 4px 26px;
+            }
+
+
+        }
+
+        &_description {
+            max-width: 403px;
+            @include Geometria400;
+            padding: 0 0 21px 25px;
+            color: $grey-text;
+
+            @include bp-320 {
+                font-size: 12px;
+                line-height: 13px;
+                padding: 0 0 15px 26px;
+                max-width: 189px;
+            }
+        }
+
+        &_btn {
+            width: 275px;
+            background: $red-btn;
+            color: $white;
+            line-height: 30px;
+            margin-right: 100px;
+            font-size: 20px;
+
+            @include bp-320 {
+                width: 164px;
+                height: 30px;
+                margin-left: 26px;
+                font-size: 12px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    &__green-elips {
+        position: absolute;
+        background-image: url('../../img/header/green-elips-header.png');
+        background-repeat: no-repeat;
+        width: 268px;
+        height: 268px;
+        top: 77px;
+        left: 769px;
+
+        @include bp-320 {
+            background-image: url('../../img/header/green-elips-header320.png');
+            top: 424px;
+            left: 203px;
+            width: 156px;
+            height: 156px;
+        }
+
+    }
+
+    &__blue-elips {
+        position: absolute;
+        background-image: url('../../img/header/blue-elips-header.png');
+        background-repeat: no-repeat;
+        width: 105px;
+        height: 105px;
+        top: 345px;
+        left: 1007px;
+
+        @include bp-320 {
+            background-image: url('../../img/header/blue-elips-header320.png');
+            top: 71px;
+            left: 136px;
+            width: 82px;
+            height: 82px;
+        }
+    }
+
+}

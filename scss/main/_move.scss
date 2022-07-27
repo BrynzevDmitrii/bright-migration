@@ -1,0 +1,80 @@
+.move {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 449px;
+
+    @include bp-320 {
+        margin-top: 44px;
+        position: relative;
+        height: 177px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        max-width: 415px;
+
+        @include bp-320 {
+            max-width: 360px;
+        }
+
+        &_title {
+            width: 387px;
+            height: 98px;
+            @include Geometria800;
+            font-size: 36px;
+            line-height: 45px;
+            color: $blue;
+            text-transform: uppercase;
+
+            @include bp-320 {
+                width: 256px;
+                height: 52px;
+                font-size: 36px;
+                line-height: 45px;
+                margin-bottom: 45px;
+            }
+        }
+
+        &_description {
+            width: 415px;
+            height: 307px;
+            @include Geometria400;
+            font-size: 24px;
+            line-height: 29px;
+
+            @include bp-320 {
+                font-size: 18px;
+                line-height: 22px;
+                width: 266px;
+                height: 104px;
+            }
+        }
+    }
+
+    &__img {
+        background-image: url("../../img/main/move/move.jpg");
+        width: 627px;
+        height: 449px;
+        background-repeat: no-repeat;
+
+        @include bp-320 {
+            background-image: url("../../img/main/move/move320.png");
+            width: 110%;
+            height: 251px;
+            position: absolute;
+            top: 222px;
+            left: -16px;
+        }
+    }
+}
+
+.description-one {
+    @include bp-320 {
+        width: 266px;
+        height: 104px;
+        margin-bottom: 296px;
+    }
+
+}

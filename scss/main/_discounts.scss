@@ -1,0 +1,85 @@
+.discounts {
+    margin-top: 100px;
+    position: relative;
+    min-width: 100%;
+    background-image: url("../../img/main/discounts/discounts-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 473px;
+
+    @include bp-320 {
+        height: 639px;
+        margin-top: 30px;
+        background-image: url("../../img/main/discounts/discounts-bg320.png");
+
+    }
+
+    &__text {
+        padding-top: 62px;
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        @include bp-320 {
+            padding-top: 39px;
+            height: 303px;
+            width: 300px;
+            justify-content: space-between;
+        }
+
+        &_title {
+            @include Geometria800;
+            font-size: 36px;
+            line-height: 45px;
+            text-transform: uppercase;
+            color: $blue;
+            max-width: 378px;
+            height: 76px;
+
+            @include bp-320 {
+                width: 256px;
+                height: 52px;
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+
+        &_description {
+            @include Geometria400;
+            font-size: 24px;
+            line-height: 29px;
+            width: 442px;
+            height: 135px;
+            color: black;
+
+            @include bp-320 {
+                width: 253px;
+                height: 143px;
+                font-size: 18px;
+                line-height: 22px;
+                color: black;
+
+            }
+
+        }
+
+        &_btn {
+            @include Geometria500;
+            color: $white;
+            font-size: 20px;
+            line-height: 30px;
+            width: 213px;
+            height: 51px;
+            background: linear-gradient(34.66deg, #82B428 16.88%, #C5D210 76%);
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 50px;
+
+            @include bp-320 {
+                width: 186px;
+                height: 39px;
+                font-size: 16px;
+            }
+        }
+    }
+}

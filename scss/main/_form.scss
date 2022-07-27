@@ -1,0 +1,167 @@
+.form {
+    position: relative;
+    margin-top: 100px;
+    height: 388px;
+    background-image: url("../../img/main/form/formbg.jpg");
+    background-size: cover;
+    
+
+    @include bp-320 {
+        margin-top:528px;
+        height: 640px;
+        background-image: url("../../img/main/form/formbg320.png");
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    &__grey {
+        position: absolute;
+        width: 1119px;
+        height: 388px;
+
+        background: linear-gradient(90deg, #212121 3.84%, rgba(12, 12, 12, 0.359375) 74.98%, rgba(0, 0, 0, 0) 100%);
+
+        @include bp-320 {
+            width: 361px;
+            height: 56%;
+            transform: rotate(-90deg);
+        }
+    }
+
+    &__centr {
+        display: flex;
+        justify-content: space-between;
+
+        @include bp-320 {
+            flex-direction: column-reverse;
+            padding-left: 20px;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 401px;
+        height: 212px;
+        padding-top: 87px;
+        z-index: 1;
+        @include bp-320 {
+            padding-top: 3px;
+            justify-content: center;
+            padding-bottom: 36px;
+            padding-left: 10px;
+        }
+
+        &_title {
+            width: 401px;
+            height: 77px;
+            @include Geometria800;
+            font-size: 36px;
+            line-height: 45px;
+            text-transform: uppercase;
+            color: $green-text;
+
+            @include bp-320 {
+                width: 269px;
+                height: 51px;
+
+                font-size: 24px;
+                line-height: 30px;
+                padding-bottom: 16px;
+                
+            }
+        }
+
+        &_description {
+            width: 411px;
+            height: 102px;
+            @include Geometria400;
+            font-size: 24px;
+            line-height: 26px;
+            color: $white;
+
+            @include bp-320 {
+                width: 266px;
+                height: 96px;
+
+                font-size: 18px;
+                line-height: 20px;
+                color: $white;
+            }
+        }
+
+
+    }
+
+    &__form {
+        width: 562px;
+        height: 209px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 102px;
+        @include bp-320 {
+            width: 294px;
+            height: 170px;
+            align-items: flex-start;
+            margin-right: 20px;
+            z-index: 2;
+        }
+
+
+
+        &_input {
+            width: 531px;
+            height: 62px;
+            background: $white;
+            border: 1px solid #C4C4C4;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 50px;
+            margin-bottom: 11px;
+            padding-left: 29px;
+
+            @include bp-320 {
+                width: 261px;
+                height: 54px;
+            }
+        }
+
+        [placeholder] {
+            @include Geometria400;
+            font-style: normal;
+            font-size: 26px;
+            line-height: 129px;
+            color: #C4C4C4;
+
+            @include bp-320 {
+                font-weight: 400;
+                font-size: 18px;
+            }
+        }
+
+        &_submit {
+            width: 275px;
+            height: 51px;
+            background: linear-gradient(34.66deg, #82B428 16.88%, #C5D210 76%);
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 50px;
+            border: none;
+
+            font-size: 20px;
+            line-height: 30px;
+            @include Geometria500;
+            color: $white;
+
+            @include bp-320 {
+                width: 186px;
+                height: 39px;
+
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+
+}

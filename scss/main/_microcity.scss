@@ -1,0 +1,171 @@
+.microcity {
+    max-width: 58%;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+
+    @include bp-320 {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+
+    &__list {
+        @include bp-320 {
+            display: flex;
+            overflow: hidden;
+        }
+    }
+
+    &__title {
+        @include Geometria800;
+        color: $blue;
+        max-width: 644px;
+        margin-bottom: 44px;
+
+        @include bp-320 {
+            display: none;
+        }
+    }
+
+    &__item {
+        min-height: 280px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        @include bp-320 {
+            min-height: 658px;
+        }
+
+
+        &_text {
+            display: flex;
+            align-items: flex-end;
+            height: 280px;
+            @include Geometria500;
+            color: $white;
+            font-size: 24px;
+            line-height: 24px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-blend-mode: multiply;
+            border-radius: 0px 0px 10px 10px;
+            padding: 0 32px 32px 28px;
+
+            @include bp-320 {
+                @include Geometria800;
+                line-height: 23px;
+                font-size: 24px;
+                line-height: 23px;
+                font-size: 24px;
+                width: 56%;
+                text-align: center;
+                padding: 0 106px 20px 60px;
+                border-radius: 0;
+            }
+        }
+
+
+
+    }
+
+    &__pagination {
+        display: none;
+
+        @include bp-320 {
+            display: block;
+            margin-left: 79px;
+        }
+    }
+
+    &__img_350 {
+        width: 350px;
+        border-radius: 0px 0px 10px 10px;
+
+        @include bp-320 {
+            display: flex;
+            align-items: end;
+            border-radius: 0;
+            width: 424px;
+        }
+    }
+
+    &__img_286 {
+        width: 286px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    &__img_415 {
+        width: 415px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    &__right-btn {
+        display: none;
+
+        @include bp-320 {
+            display: block;
+            position: absolute;
+            left: calc(100% - 16px);
+            top: 291px;
+            cursor: pointer;
+        }
+    }
+
+    &__more {
+        @include Geometria800;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: #C5C5C5;
+
+        @include bp-320 {
+            display: none;
+        }
+    }
+
+}
+
+#microcity__infrastructure_1 {
+    background-image: url("../../img/main/microcity/microcity.png");
+
+    @include bp-320 {
+        background-image: url("../../img/main/microcity/microcity320.png");
+        background-repeat: no-repeat;
+        background-size: 360px 658px;
+       
+    }
+}
+
+#microcity__infrastructure_2 {
+    background-image: url("../../img/main/microcity/flat.png");
+}
+
+#microcity__infrastructure_3 {
+    background-image: url("../../img/main/microcity/park.png");
+}
+
+#microcity__appearance_1 {
+    background-image: url("../../img/main/microcity/glass.png");
+}
+
+#microcity__appearance_2 {
+    background-image: url("../../img/main/microcity/granite.png");
+}
+
+#microcity__appearance_3 {
+    background-image: url("../../img/main/microcity/pantry.png");
+}
+
+#microcity__conditions_1 {
+    background-image: url("../../img/main/microcity/hot-whoter.png");
+}
+
+#microcity__conditions_2 {
+    background-image: url("../../img/main/microcity/pram.png");
+}
+
+#microcity__conditions_3 {
+    background-image: url("../../img/main/microcity/waiting-area.png");
+}

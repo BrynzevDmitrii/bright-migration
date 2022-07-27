@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__tagline">
+            <div class="header__tagline_logo"></div>
+            <h1 class="header__tagline_call">
+                Встречайте
+                новые яркие кварталы!
+            </h1>
+            <p class="header__tagline_description">
+                Здесь так же душевно и уютно,
+                как в старом добром «Ярком»,
+                но ещё лучше, современнее и интереснее.
+            </p>
+            <button class="button header__tagline_btn" type="button">
+                Посмотреть квартиры
+            </button>
+        </div>
+        <div class="header__green-elips"></div>
+        <div class="header__blue-elips"></div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="container">
+                <section class="new-bright">
+                    <div class="new-bright__text">
+                        <h3 class="new-bright__text_header">
+                            Из «Яркого» <br>в новый «Яркий»!
+                        </h3>
+                        <div class="new-bright__text_description">
+                            <p>Расширяйтесь, не покидая наш уютный микрогород. Переезжайте в новые кварталы «Яркого»!
+                            </p>
+                            <p> Это удобно: детям не нужно менять школу и садик, вам — менять свои привычки. Старые
+                                друзья остаются с вами, а центр Уфы по-прежнему рядом.</p>
+                        </div>
+                    </div>
+                    <img class="new-bright__img" src="./img/main/new-bright/layout.png" alt="layout">
+                </section>
+                <section class="improvement">
+                    <h3 class="improvement__title">
+                        Всё стало ещё лучше
+                    </h3>
+                    <ul class="improvement__list">
+                        <li id="improvement__item_1" class="improvement__item">
+                            <p class="improvement__item_title">Безопасные дворы без машин</p>
+                            <div class="improvement__item_opasiti-block">
+                                <p class="improvement__item_description">
+                                    Двор — это там, где отдыхают люди. А парковка — где отдыхают машины.
+                                    И лучше это не смешивать.
+                                    Поэтому в новых кварталах парковка вынесена за пределы двора. Дети играют
+                                    в безопасном зелёном дворе,
+                                    машины стоят по периметру квартала под присмотром камер.
+                                </p>
+                            </div>
+                        </li>
+                        <li id="improvement__item_2" class="improvement__item">
+                            <p class="improvement__item_title">Трёхуровневое озеленение и двор, цветущий круглый год
+                            </p>
+                            <div class="improvement__item_opasiti-block">
+                                <p class="improvement__item_description">
+                                    Новые дворы «Яркого» — это настоящие парки.
+                                    Растения здесь подобраны так, чтобы двор цвёл круглый год.
+                                    А трёхуровневое озеленение защищает от ветра и солнца.
+                                </p>
+                            </div>
+                        </li>
+                        <li id="improvement__item_3" class="improvement__item">
+                            <p class="improvement__item_title">Игровые пространства для разного возраста</p>
+                            <div class="improvement__item_opasiti-block">
+                                <p class="improvement__item_description">
+                                    В новых дворах уникальные игровые пространства разделены по возрастам.
+                                    Малыши играют с малышами, дети постарше со своими сверстниками.
+                                    Безопасно, весело и никто никому не мешает.
+                                </p>
+                            </div>
+                        </li>
+                        <li id="improvement__item_4" class="improvement__item">
+                            <p class="improvement__item_title">Зоны отдыха
+                                во дворах-парках</p>
+                            <div class="improvement__item_opasiti-block">
+                                <p class="improvement__item_description">
+                                    Для нас дом — это место силы, где можно отдохнуть от работы, выдохнуть
+                                    и подпитаться энергией.
+                                    И гораздо приятнее делать это среди зелени в уютном пространстве двора-парка.
+                                    Выходите на улицу, общайтесь с друзьями и наслаждайтесь жизнью.
+                                </p>
+                            </div>
+                        </li>
+                        <li id="improvement__item_5" class="improvement__item">
+                            <p class="improvement__item_title">Дизайнерские подъезды</p>
+                            <div class="improvement__item_opasiti-block">
+                                <p class="improvement__item_description">
+                                    Просторные дизайнерские лобби с диванами, библиотеками и входом на уровне пола
+                                </p>
+                            </div>
+                        </li>
+                        <li id="improvement__item_6" class="improvement__item">
+                            <p class="improvement__item_title">Спорт прямо
+                                во дворе</p>
+                            <div class="improvement__item_opasiti-block">
+                                <p class="improvement__item_description">
+                                    На спорт всегда найдётся время, если им можно заниматься прямо во дворе.
+                                    Поэтому в новых кварталах спроектировано 3 километра велодорожек с современным
+                                    покрытием и 7 игровых зон.
+                                    Вышел из дома и уже на спорте!
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="apartments">
+                    <p class="apartments__title">Квартиры для яркой жизни</p>
+                    <ul class="apartments__slider">
+                        <li class="apartments__slider_item">
+                            <div id="apartments__slider_img1" class="apartments__slider_img"></div>
+                            <div class="apartments__slider_description">
+                                <div class="apartments__slider_main">
+                                    <div class="apartments__slider_drawing">
+                                        <div class="apartments__slider_drawing-img"></div>
+                                        <span class="apartments__slider_count-drawing">Доступно ещё 15
+                                            планировок!</span>
+                                    </div>
+                                    <div class="apartments__slider_rooms">
+                                        <h3 class="apartments__slider_count-rooms">
+                                            1 комнатная квартира
+                                        </h3>
+
+                                        <span class="apartments__slider_rooms-description">
+                                            Современная квартира с видом
+                                            на центр города через панорамные окна. Эффективная планировка.
+                                            Большая кухня-гостиная для вечеринок с друзьями.
+                                        </span>
+                                        <button class="apartments__slider_button button" type="button">Это моя
+                                            квартира</button>
+                                    </div>
+                                </div>
+                                <div class="apartments__slider_numbers">
+                                    <table class="apartments__slider_prise">
+                                        <tr>
+                                            <td class="apartments__table_head">
+                                                Стоимость
+                                                <p class="apartments__table_body">2,65 млн.Р ~ 12 000 Р/мес</p>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div>
+                                        <table class="apartments__slider_attribute">
+                                            <tr>
+                                                <td class="apartments__table_head">
+                                                    Площадь
+                                                    <p class="apartments__table_body">35 кв.м</p>
+                                                </td>
+                                                <td class="apartments__table_head">
+                                                    Секция
+                                                    <p class="apartments__table_body">6</p>
+                                                </td>
+                                                <td class="apartments__table_head">
+                                                    Этаж
+                                                    <p class="apartments__table_body">12</p>
+                                                </td>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="apartments__slider_item">
+                            <div id="apartments__slider_img2" class="apartments__slider_img"></div>
+                            <div class="apartments__slider_description">
+                                <div class="apartments__slider_main">
+                                    <div class="apartments__slider_drawing">
+                                        <div class="apartments__slider_drawing-img"></div>
+                                        <span class="apartments__slider_count-drawing">Доступно ещё 15
+                                            планировок!</span>
+                                    </div>
+                                    <div class="apartments__slider_rooms">
+                                        <h3 class="apartments__slider_count-rooms">
+                                            1 комнатная квартира
+                                        </h3>
+                                        <span class="apartments__slider_rooms-description">
+                                            Современная квартира с видом
+                                            на центр города через панорамные окна. Эффективная планировка.
+                                            Большая кухня-гостиная для вечеринок с друзьями.
+                                        </span>
+                                        <button class="apartments__slider_button button" type="button">Это моя
+                                            квартира</button>
+                                    </div>
+                                </div>
+                                <div class="apartments__slider_numbers">
+                                    <table class="apartments__slider_prise">
+                                        <tr>
+                                            <td class="apartments__table_head">
+                                                Стоимость
+                                                <p class="apartments__table_body">2,65 млн.Р ~ 12 000 Р/мес</p>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div>
+                                        <table class="apartments__slider_attribute">
+                                            <tr>
+                                                <td class="apartments__table_head">
+                                                    Площадь
+                                                    <p class="apartments__table_body">35 кв.м</p>
+                                                </td>
+                                                <td class="apartments__table_head">
+                                                    Секция
+                                                    <p class="apartments__table_body">6</p>
+                                                </td>
+                                                <td class="apartments__table_head">
+                                                    Этаж
+                                                    <p class="apartments__table_body">12</p>
+                                                </td>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="apartments__slider_paginations"></div>
+                </section>
+                <section class="convenience">
+                    <ul class="convenience__list">
+                        <li id="convenience__item_1" class="convenience__item">
+                            <p class="convenience__item_title">Эффективные планировки</p>
+                        </li>
+                        <li id="convenience__item_2" class="convenience__item">
+                            <p class="convenience__item_title">Высокие потолки</p>
+                        </li>
+                        <li id="convenience__item_3" class="convenience__item">
+                            <p class="convenience__item_title">Двухкамерные стеклопакеты</p>
+                        </li>
+                    </ul>
+                    <div class="convenience__banner">
+                        <div class="convenience__banner_img"></div>
+                        <div class="convenience__banner_info">
+                            <p class="convenience__banner_text">Квартиры с чистовой отделкой</p>
+                            <button type="button" class="convenience__banner_btn button">Посмотреть квартиры</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="microcity">
+                <h3 class="microcity__title">Микрогород, прекрасный в деталях</h3>
+                <ul class="microcity__list">
+                    <li class="microcity__item">
+                        <div id="microcity__infrastructure_1" class="microcity__img_350">
+                            <p class="microcity__item_text">Инфраструктура микрогорода</p>
+                        </div>
+                        <div id="microcity__infrastructure_2" class="microcity__img_286">
+                            <p class="microcity__item_text">Видовые квартиры</p>
+                        </div>
+                        <div id="microcity__infrastructure_3" class="microcity__img_415">
+                            <p class="microcity__item_text">Свой парки набережная</p>
+                        </div>
+                    </li>
+                    <li class="microcity__item">
+                        <div id="microcity__appearance_1" class="microcity__img_415">
+                            <p class="microcity__item_text">Витражное остекление лоджий</p>
+                        </div>
+                        <div id="microcity__appearance_2" class="microcity__img_350">
+                            <p class="microcity__item_text">Фасады, облицованные гранитом</p>
+                        </div>
+                        <div id="microcity__appearance_3" class="microcity__img_286">
+                            <p class="microcity__item_text">Кладовые</p>
+                        </div>
+                    </li>
+                    <li class="microcity__item">
+                        <div id="microcity__conditions_1" class="microcity__img_350">
+                            <p class="microcity__item_text">Горячая вода 24/7</p>
+                        </div>
+                        <div id="microcity__conditions_2" class="microcity__img_286">
+                            <p class="microcity__item_text">Колясочные</p>
+                        </div>
+                        <div id="microcity__conditions_3" class="microcity__img_415">
+                            <p class="microcity__item_text">Места для ожидания в подъездах</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="microcity__right-btn">
+                    <img src="/img/main/microcity/btn-right.png" alt="btn-right">
+                </div>
+                <div class="microcity__pagination">
+                    <img src="/img/main/microcity/pagination10.png" alt="pagination10">
+                </div>
+                <div class="microcity__more">
+                    <span>Показать ещё</span>
+                </div>
+            </section>
+        </div>
+        <section class="discounts">
+            <div class="discounts__text container">
+                <div class="discounts__text_title">Скидки для своих</div>
+                <div class="discounts__text_description">
+                    Мы с вами давно знаем друг друга.
+                    А для друзей у нас всегда найдётся скидка!
+                    Для всех жителей Яркого, переезжающих в новые кварталы — скидка на квартиры 3%!
+                </div>
+                <button type="button" class="discounts__text_btn button" id="discounts-open">
+                    Оставить заявку
+                </button>
+                <div class="modal visible" id="modal">
+                    <div class="modal__container">
+                        <div class="modal__header">
+                            <button class="modal__close" id="modal__close">&times;</button>
+                        </div>
+                        <div class="modal__body">
+                            <div class="modal__title">Оставить заявку</div>
+                            <form class="modal__form" action="#" method="post">
+                                <input id="modal__name" class="modal__form_input" type="text" name="name"
+                                    placeholder="Имя">
+                                <input id="modal__phone" class="modal__form_input" type="tel" name="phone"
+                                    placeholder="Телефон">
+                                <div class="modal__agreements">
+                                    <input class="modal__checkbox" type="checkbox" id="agreement">
+                                    <p>Я согласен(-на) на
+                                        <a class="modal__agreements_privacy" href="#">обработку персональных
+                                            данных</a>
+                                    </p>
+                                </div>
+                                <button class="modal__btn button" type="submit">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="move container">
+            <div class="move__text">
+                <div class="move__text_title">
+                    Просто переезжайте
+                </div>
+                <div class="move__text_description">
+                    <p class="description-one">
+                        Переехать в новый квартал проще, чем вы думаете.
+                        Выбираете квартиру, оформляете ипотеку и делаете первый взнос.
+                    </p>
+                    <span class="description-second">
+                        Мы в это время по программе «Трейд-ин» находим покупателя на вашу старую квартиру.
+                        Деньгами от продажи гасите ипотеку, и вот вы уже житель нового квартала «Яркого».
+                        Поздравляем!
+                    </span>
+
+
+                </div>
+            </div>
+            <div class="move__img"></div>
+        </section>
+        <section class="form">
+            <div class="form__grey"></div>
+            <div class="form__centr container">
+                <div class="form__text">
+                    <div class="form__text_title">
+                        Хочу жить в новом квартале!
+                    </div>
+                    <div class="form__text_description">
+                        Оставьте свои контакты в форме и мы свяжемся с вами,
+                        поможем выбрать квартиру и расскажем,
+                        как сделать переезд ещё проще.
+                    </div>
+                </div>
+                <form class="form__form" action="#" method="post">
+                    <input id="name" class="form__form_input" type="text" name="name" placeholder="Имя">
+                    <input id="phone" class="form__form_input" type="tel" name="phone" placeholder="Телефон">
+                    <button class="form__form_submit" type="submit" value="Отправить">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="footer__content_logo">
+            </div>
+            <div class="footer__content_contacts">
+                <ul class="footer__content_social-list">
+                    <li class="footer__content_social-item">
+                        <a href="#">
+                            <img class="fullskrin" src="./img/footer/facebook.svg" alt="facebook">
+                            <img class="mobile" src="./img/footer/facebook320.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="footer__content_social-item">
+                        <a href="#">
+                            <img class="footer__content_social-inst-crcl fullskrin" src="./img/footer/Vector.png"
+                                alt="inst-crkl">
+                            <img class="footer__content_social-inst fullskrin" src="./img/footer/inst.svg" alt="inst">
+                            <img class="mobile" src="./img/footer/Vector320.png" alt="Vector">
+                            <img class=" footer__content_social-inst mobile" src="./img/footer/inst320.png" alt="inst">
+                        </a>
+                    </li>
+                    <li class="footer__content_social-item">
+                        <a href="#">
+                            <img class="fullskrin" src="./img/footer/vk.svg" alt="vk">
+                            <img class="mobile" src="./img/footer/vk320.png" alt="vk">
+                        </a>
+                    </li>
+                </ul>
+                <a class="footer__content_contacts-tel" href="tel:+7 (347) 225-08-37">+7 (347) 225-08-37</a>
+                <p class="footer__content_contacts-info">
+                    Застройщик ООО Специализированный застройщик «АгроСтройИнвест».
+                    Микрогород «Яркий». Проектная декларация на сайте <a href="#">https://наш.дом.рф/</a>.
+                </p>
+                <a class="footer__content_contacts-privacy" href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__content_slogan">
+            </div>
+        </div>
+    </footer>
+    </div>
+    </div>
+    <script src="./js/popup.js"></script>
+</body>
+
+</html>

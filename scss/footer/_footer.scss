@@ -1,0 +1,203 @@
+.footer {
+    height: 305px;
+    background: $blue;
+
+    @include bp-320 {
+        max-width: 360px;
+        height: 375px;
+    }
+
+    &__content {
+
+        padding-bottom: 52px;
+        display: flex;
+        justify-content: space-between;
+
+        @include bp-320 {
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        &_logo {
+            background-image: url("../../img/footer/logo.png");
+            background-repeat: no-repeat;
+            background-position-y: 65px;
+            width: 221px;
+
+            @include bp-320 {
+                background-image: url('../../img/footer/logo320.png');
+                background-position: 0px 33px;
+                width: 127px;
+                height: 100px;
+            }
+        }
+
+        &_contacts {
+            width: 550px;
+            padding-bottom: 58px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            @include bp-320 {
+                width: 246px;
+            }
+        }
+
+        &_social-list {
+
+            width: 184px;
+            height: 46px;
+            display: flex;
+            justify-content: space-between;
+            padding: 58px 0 22px;
+
+            @include bp-320 {
+                width: 127px;
+                height: 31px;
+                padding: 0;
+            }
+        }
+
+        &_social-item {
+            position: relative;
+            max-width: 46px;
+            max-height: 46px;
+
+            @include bp-320 {
+                max-width: 31px;
+                max-height: 31px;
+            }
+        }
+
+        &_social-inst-crcl {
+            position: absolute;
+            width: 46px;
+            left: -24px;
+        }
+
+        &_social-inst {
+            position: absolute;
+            background-image: url(../../img/footer/centr.svg);
+            background-repeat: no-repeat;
+            background-size: 9px 9px;
+            background-position: center;
+            background-color: $blue;
+            border: 2px solid $blue;
+            border-radius: 10px;
+            left: -14px;
+            top: 9px;
+
+            @include bp-320 {
+                left: 7px;
+                top: 6px;
+            }
+        }
+
+        &_contacts-tel {
+            width: 297px;
+            height: 60px;
+            @include Geometria800;
+            font-size: 30px;
+            line-height: 27px;
+            color: $white;
+            text-decoration: none;
+
+            @include bp-320 {
+                width: 127px;
+                height: 12px;
+                font-size: 13px;
+                line-height: 12px;
+                margin: 25px 0 106px 0;
+            }
+        }
+
+        &_contacts-info {
+            width: 500px;
+            height: 12px;
+            @include Geometria400;
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 38px;
+            color: $white;
+
+            @include bp-320 {
+                width: 246px;
+                height: 29px;
+                margin-bottom: 26px;
+                font-size: 8px;
+                line-height: 10px;
+                text-align: center;
+            }
+        }
+
+        &_contacts-info a {
+            text-decoration: none;
+            @include Geometria400;
+            font-size: 12px;
+            line-height: 15px;
+            color: $white;
+
+            @include bp-320 {
+                font-size: 8px;
+                line-height: 10px;
+            }
+        }
+
+        &_contacts-privacy {
+            max-width: 450px;
+            height: 12px;
+            @include Geometria400;
+            font-size: 12px;
+            line-height: 15px;
+            color: $white;
+            text-decoration: none;
+
+            @include bp-320 {
+                width: 137px;
+                height: 8px;
+                font-size: 8px;
+                line-height: 10px;
+                text-align: center;
+            }
+        }
+
+        &_slogan {
+            background-image: url("../../img/footer/slogan.png");
+            background-repeat: no-repeat;
+            width: 268px;
+            background-position-y: 63px;
+
+            @include bp-320 {
+                position: absolute;
+                background-image: url(../../img/footer/slogan320.png);
+                width: 147px;
+                top: 189px;
+                left: 96px;
+                background-position: 3px 6px;
+                height: 45px;
+            }
+
+
+        }
+
+    }
+
+}
+
+.fullskrin {
+    @include bp-320 {
+        display: none;
+    }
+}
+
+.mobile {
+    display: none;
+
+    @include bp-320 {
+        display: block;
+    }
+}

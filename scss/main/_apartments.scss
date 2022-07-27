@@ -1,0 +1,258 @@
+.apartments {
+    margin-top: 110px;
+    overflow: hidden;
+
+    &__title {
+        @include Geometria800;
+        color: $green-text;
+        max-width: 343px;
+        margin-bottom: 60px;
+
+        @include bp-320 {
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 56px;
+        }
+    }
+
+    &__slider {
+        display: flex;
+        margin-bottom: 61px;
+
+        @include bp-320 {
+            margin-bottom: 26px;
+        }
+
+        &_item {
+            display: flex;
+            width: 1140px;
+            height: 547px;
+            background: $white;
+            border: 1px solid #C5C5C5;
+            box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            margin-right: 56px;
+
+            @include bp-320 {
+                width: 297px;
+                height: 626px;
+                box-shadow: 6.92192px 6.92192px 21.631px rgba(0, 0, 0, 0.25);
+                border-radius: 13.9705px;
+                margin-right: 17px;
+                flex-direction: column
+            }
+
+            ;
+        }
+
+        &_img {
+
+            width: 360px;
+            height: 547px;
+        }
+
+        &_description {
+            display: flex;
+            flex-direction: column;
+            padding: 70px 52px 69px 0;
+            width: 100%;
+
+            @include bp-320 {
+                padding: 0;
+            }
+
+        }
+
+        &_drawing {
+            display: flex;
+            flex-direction: column;
+            width: 375px;
+            height: 307px;
+
+            @include bp-320 {
+                width: 297px;
+                height: 234px;
+            }
+        }
+
+        &_drawing-img {
+            background-image: url("../../img/main/apartments/drawing.png");
+            width: 375px;
+            height: 284px;
+
+            @include bp-320 {
+                background-image: url("../../img/main/apartments/drawing320.png");
+                width: 247px;
+                height: 188px;
+                margin: 24px 24px 32px 25px;
+            }
+        }
+
+        &_count-drawing {
+            @include Geometria400;
+            font-size: 17px;
+            line-height: 23px;
+            font-style: italic;
+            margin-left: 43px;
+
+            @include bp-320 {
+                display: none;
+            }
+        }
+
+        &_main {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 13px;
+
+            @include bp-320 {
+                flex-direction: column;
+
+            }
+        }
+
+        &_rooms {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 358px;
+            max-height: 275px;
+
+            @include bp-320 {
+                max-width: 218;
+                max-height: 180px
+            }
+        }
+
+        &_count-rooms {
+            @include Geometria800;
+            font-size: 24px;
+            line-height: 30px;
+
+            @include bp-320 {
+                font-size: 17px;
+                line-height: 22px;
+                margin: 0 auto;
+            }
+        }
+
+        &_rooms-description {
+            @include Geometria400;
+            font-size: 17px;
+            line-height: 23px;
+            max-width: 308px;
+
+            @include bp-320 {
+                font-size: 12px;
+                line-height: 17px;
+                max-width: 218px;
+                margin: 0 auto;
+                padding: 10px 0 20px 0;
+            }
+        }
+
+        &_button {
+            max-width: 241px;
+            max-height: 51px;
+            background: $green-text;
+            color: $white;
+            @include Geometria500;
+            font-size: 20px;
+            line-height: 34px;
+
+            @include bp-320 {
+                width: 177.44px;
+                height: 37.55px;
+                background: linear-gradient(34.66deg, #82B428 16.88%, #C5D210 76%);
+                box-shadow: 2.20881px 2.20881px 11.0441px rgba(0, 0, 0, 0.2);
+                border-radius: 36.8135px;
+                font-weight: 500;
+                font-size: 14.7254px;
+                line-height: 22px;
+                margin: 0 auto;
+            }
+        }
+
+        &_numbers {
+            margin-left: 30px;
+            border-top: 0.5px solid #000000;
+            display: flex;
+            width: 683px;
+
+            @include bp-320 {
+                width: 247px;
+                margin: 0 auto;
+                display: flow-root;
+            }
+        }
+
+        &_prise {
+            margin-right: 70px;
+        }
+
+        &_attribute {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &_paginations {
+            min-width: 102px;
+            min-height: 12px;
+            background-image: url("../../img/main/apartments/pagination4.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            @include bp-320 {
+                display: none;
+            }
+        }
+
+    }
+
+    &__table_head {
+        padding-top: 23px;
+        @include Geometria400;
+        font-size: 17px;
+        line-height: 23px;
+        color: $black2;
+        padding-right: 10px;
+
+        @include bp-320 {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 18px;
+        }
+
+    }
+
+    &__table_body {
+        @include Geometria800;
+        font-size: 22px;
+        line-height: 28px;
+        color: $black2;
+        margin-right: 30px;
+
+        @include bp-320 {
+            font-size: 17px;
+            line-height: 21px
+        }
+    }
+
+
+}
+
+#apartments__slider_img1 {
+    background-image: url("../../img/main/apartments/appartament-green-armchair.png");
+
+    @include bp-320 {
+        display: none;
+    }
+}
+
+#apartments__slider_img2 {
+    background-image: url("../../img/main/apartments/apartments-kitchen.png");
+    background-size: cover;
+
+    @include bp-320 {
+        display: none;
+    }
+}
